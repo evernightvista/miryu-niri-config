@@ -1,0 +1,135 @@
+config_version = 15
+
+[audio]
+sound_theme = "Fantasy"
+sound_volume = 0.99999997764825821
+
+[bar]
+order = [ "EvernightVista" ]
+
+    [bar.EvernightVista]
+    background_opacity = 0.0
+
+[battery]
+warning_threshold = 7
+
+[brightness]
+enable_ddcutil = true
+
+[desktop_widgets]
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[dock]
+background_opacity = 0.0
+enabled = true
+launcher_position = "end"
+pinned = [ "org.mozilla.firefox", "org.kde.dolphin", "vlc" ]
+show_dots = true
+
+[location]
+auto_locate = true
+
+[lockscreen]
+blurred_desktop = true
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [ "lockscreen-login-box@Virtual-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@Virtual-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 640.0
+    cy = 618.0
+    output = "Virtual-1"
+    placement_height = 800.0
+    placement_width = 1280.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@Virtual-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[nightlight]
+enabled = true
+
+[notification]
+background_opacity = 0.0
+
+[osd]
+background_opacity = 0.0
+
+[shell]
+font_family = "MiSans VF"
+launch_apps_as_systemd_services = true
+screen_time_enabled = true
+
+    [shell.panel]
+    floating_layer = "top"
+    transparency_mode = "glass"
+
+[theme]
+builtin = "Ayu"
+community_palette = "Oxocarbon"
+mode = "auto"
+shell_mode = "auto"
+source = "wallpaper"
+
+    [theme.templates]
+    enable_builtin_templates = false
+    enable_community_templates = false
+
+[wallpaper]
+directory = "/usr/share/wallpapers"
+directory_dark = "/usr/share/wallpapers/Nova/contents/images_dark"
+directory_light = "/usr/share/wallpapers/Nova/contents/images"
+transition_on_startup = true
+
+    [wallpaper.automation]
+    recursive = true
+
+    [wallpaper.default]
+    path = "/usr/share/wallpapers/Nova/contents/images/3840x2160.jxl"
+
+    [wallpaper.last]
+    path = "/usr/share/wallpapers/Nova/contents/images/3840x2160.jxl"
+
+    [wallpaper.monitors.Virtual-1]
+    path = "/usr/share/wallpapers/Nova/contents/images/3840x2160.jxl"
+
+[widget.clock]
+format = "{:%D %H:%M:%S}"
+
+[widget.network]
+show_label = false
+
+[widget.wallpaper]
+enabled = false

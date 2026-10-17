@@ -1,0 +1,14 @@
+{
+  "Applications": [
+    "/usr/share/applications/org.kde.konsole.desktop",
+    "/usr/share/applications/kdesystemsettings.desktop",
+    "/usr/share/applications/dev.noctalia.Noctalia.desktop",
+    "/var/lib/linglong/entries/share/applications/ai.storyteller.photocraft.linyaps.desktop",
+    "/usr/share/applications/vlc.desktop",
+    "/usr/share/applications/org.kde.dolphin.desktop",
+    "/usr/share/applications/org.mozilla.firefox.desktop"
+  ],
+  "Panels": [
+    "cc-tab:media"
+  ]
+}
